@@ -1,8 +1,8 @@
 # pull official base image
-FROM python:3.12.2-slim-buster
+FROM python:3.12.2
 
 # set working directory
-WORKDIR /usr/src/django-tdd-docker
+WORKDIR /usr/src/app
 
 # set environment variables
 ENV PYTHONDONTWRITEBYTECODE 1
