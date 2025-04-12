@@ -1,0 +1,6 @@
+#file.dockerignore allows you to exclude copying of certain files and folders to the image.
+
+env
+.dockerignore
+Dockerfile
+Dockerfile.prod
