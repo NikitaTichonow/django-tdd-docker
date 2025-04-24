@@ -51,7 +51,15 @@
    ```bash
    docker-compose exec web python manage.py migrate
    ```
+5. **Очистить database:**
+   ```bash
+   docker-compose exec movies python manage.py flush
+   ```
 
+6. **Загрузить database:**
+   ```bash
+   docker-compose exec movies python manage.py loaddata movies.json
+   ```
 Приложение будет доступно по адресу: http://localhost:8009
 
 ## 🧪 Тестирование
